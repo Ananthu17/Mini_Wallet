@@ -1,0 +1,6 @@
+curl -X POST -H "Content-Type: application/json" -d '{"customer_xid":"ea0212d3-abd6-406f-8c67-868e814a2436"}' http://127.0.0.1:8000/api/v1/init
+
+
+http://127.0.0.1:8000/api/v1/init
+curl --location --request POST 'http://127.0.0.1:8000/api/v1/wallet' \
+--header 'Authorization: Token 6b3f7dc70abe8aed3e56658b86fa508b472bf238'
